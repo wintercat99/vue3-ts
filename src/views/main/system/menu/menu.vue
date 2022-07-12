@@ -1,0 +1,15 @@
+<template>
+  <div class="menu">
+    <PageContent
+      :contentTableConfig="contentTableConfig"
+      pageName="menu"
+    ></PageContent>
+  </div>
+</template>
+
+<script lang="ts" setup>
+import PageContent from "@/components/pageContnet";
+import { contentTableConfig } from "./config/content.config";
+</script>
+
+<style scoped></style>
